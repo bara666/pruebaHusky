@@ -9,6 +9,7 @@
         "lint-staged": "^11.2.5"
     },
     "scripts": {
+        "prepare": "husky install",
         "lint:js": "eslint . --ext .js",
         "lint:js:fix": "npm run lint:js -- --fix",
         "test:related": "jest --bail --findRelatedTests"
