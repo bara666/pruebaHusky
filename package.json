@@ -1,0 +1,18 @@
+{
+    "name": "prueba",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "dependencies": {},
+    "devDependencies": {
+        "husky": "^7.0.4",
+        "lint-staged": "^11.2.5"
+    },
+    "scripts": {
+        "lint:js": "eslint . --ext .js",
+        "lint:js:fix": "npm run lint:js -- --fix",
+        "test:related": "jest --bail --findRelatedTests"
+    },
+    "author": "",
+    "license": "ISC"
+}
