@@ -5,7 +5,7 @@
     "main": "index.js",
     "dependencies": {},
     "devDependencies": {
-        "@commitlint/cli": "^13.2.1",
+        "@commitlint/cli": "^17.6.1",
         "@commitlint/config-conventional": "^13.2.0",
         "commitizen": "^4.2.4",
         "conventional-changelog-cli": "^2.1.1",
